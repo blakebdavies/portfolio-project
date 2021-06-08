@@ -100,6 +100,11 @@ footer .social-links a:hover {
   color: white;
 }
 
+footer .website-coded {
+  font-family: monospace;
+  font-size: 12px;
+}
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
