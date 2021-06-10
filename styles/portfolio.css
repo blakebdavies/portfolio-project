@@ -180,9 +180,17 @@ footer .website-coded {
   padding: 0;
 }
 
+.icons {
+  text-align: center;
+}
+
 .icons img {
   max-height: 60px;
   padding: 10px;
+}
+
+.icons p {
+  font-size: 10px;
 }
 @media (max-width: 900px) {
   h1 {
