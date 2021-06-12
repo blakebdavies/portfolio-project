@@ -1,6 +1,6 @@
 :root {
   --branding-color: #7971ea;
-  --secondary-color: #d6c9f8;
+  --secondary-color: #d7caf8;
   --font-color: #272142;
   --heading-font-family: "Lora", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -116,6 +116,16 @@ footer .website-coded {
   font-size: 20px;
   font-weight: normal;
   line-height: 2;
+}
+
+.homepage-content container {
+  padding: 60px 20px 0 0;
+  margin-bottom: 0;
+}
+
+.homepage-content .subject-header {
+  font-size: 40px;
+  line-height: 1.5;
 }
 
 .content-container {
