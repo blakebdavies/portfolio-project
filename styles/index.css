@@ -13,7 +13,7 @@ nav {
   padding: 20px 0;
 }
 nav ul {
-  margin: 15px;
+  margin-left: auto;
   padding: 0;
 }
 nav li {
@@ -23,13 +23,13 @@ nav li {
   margin-left: 15px;
 }
 
-nav a {
+.nav-item a {
   color: #272142;
   text-decoration: none;
 }
 
-nav li.active a,
-nav a:hover {
+.nav-link .active a,
+.nav-item a:hover {
   color: var(--branding-color);
   transition: all 100ms ease-in-out;
 }
@@ -208,13 +208,6 @@ footer .website-coded {
 
   h3 {
     font-size: 26px;
-  }
-
-  nav ul {
-    margin: 0 auto;
-  }
-  nav a {
-    font-size: 14px;
   }
 
   .btn {

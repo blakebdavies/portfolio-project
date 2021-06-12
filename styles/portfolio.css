@@ -9,29 +9,22 @@ body {
   font-family: var(--default-font-family);
 }
 
-nav {
-  padding: 20px 0;
-}
-nav ul {
-  margin: 15px;
-  padding: 0;
-}
-nav li {
-  display: inline;
-  line-height: 42px;
-  list-style: none;
-  margin-left: 15px;
+.navbar-nav {
+  margin-left: auto;
+  padding-right: 40px;
 }
 
-nav a {
+.nav-link {
   color: #272142;
   text-decoration: none;
+  font-weight: 200;
+  margin-left: 12px;
+  transition: all 150ms ease-in-out;
 }
-
-nav li.active a,
-nav a:hover {
-  color: var(--branding-color);
-  transition: all 100ms ease-in-out;
+.active,
+.nav-link:hover {
+  font-weight: 400;
+  color: var(--branding-color) !important;
 }
 
 h1,
@@ -40,7 +33,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: black;
+  color: #272142;
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -175,7 +168,7 @@ footer .website-coded {
 }
 
 .logo {
-  max-height: 70px;
+  max-width: 100px;
   margin: 0;
   padding: 0;
 }
@@ -208,14 +201,6 @@ footer .website-coded {
 
   h3 {
     font-size: 26px;
-  }
-
-  nav ul {
-    margin-left: auto;
-    padding: 0;
-  }
-  nav a {
-    font-size: 14px;
   }
 
   .btn {
