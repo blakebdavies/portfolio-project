@@ -9,7 +9,7 @@ h1 {
   padding: 10px;
 }
 
-.work-experience p {
+section p {
   font-size: 16px;
   justify-content: space-evenly;
 }
@@ -37,4 +37,25 @@ h1 {
 
 .icons p {
   font-size: 10px;
+}
+
+@media all and (max-width: 900px) {
+  h1 {
+    font-size: 38px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 26px;
+    line-height: 1.5;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  section p {
+    font-size: 12px;
+    text-align: center;
+  }
 }
