@@ -1,0 +1,40 @@
+h1 {
+  font-size: 45px;
+}
+
+.work-experience section {
+  color: var(--font-color);
+  line-height: 2;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.work-experience p {
+  font-size: 16px;
+  justify-content: space-evenly;
+}
+
+.work-experience a {
+  color: var(--font-color);
+  text-decoration: none;
+}
+
+.work-experience a:hover {
+  color: var(--branding-color);
+}
+
+.about-photo {
+  max-height: 400px;
+}
+.icons {
+  text-align: center;
+}
+
+.icons img {
+  max-height: 60px;
+  padding: 10px;
+}
+
+.icons p {
+  font-size: 10px;
+}
