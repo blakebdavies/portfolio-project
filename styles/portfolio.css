@@ -175,11 +175,14 @@ footer .website-coded {
 }
 
 .logo {
-  max-height: 75px;
+  max-height: 70px;
   margin: 0;
   padding: 0;
 }
 
+.about-photo {
+  max-height: 400px;
+}
 .icons {
   text-align: center;
 }
