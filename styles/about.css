@@ -2,6 +2,25 @@ h1 {
   font-size: 45px;
 }
 
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+  line-height: 1;
+  padding: 10px 20px;
+  margin-left: 0px;
+}
+
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 1;
+  padding: 10px 20px;
+}
+
 .work-experience section {
   color: var(--font-color);
   line-height: 2;
