@@ -39,6 +39,15 @@ h2 {
   padding: 10px 20px;
 }
 
+.contact-btn {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
 @media all and (max-width: 768px) {
   h1 {
     font-size: 35px;
