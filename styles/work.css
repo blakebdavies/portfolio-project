@@ -17,6 +17,10 @@ h2 {
   margin-bottom: 15px;
 }
 
+.description {
+  font-size: 14px;
+  font-weight: 1;
+}
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;

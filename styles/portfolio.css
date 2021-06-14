@@ -170,17 +170,13 @@ footer a:hover {
   padding: 15px 30px;
 }
 
-.project-description {
-  padding: 120px 60px;
-}
-
 .logo {
   max-width: 100px;
   margin: 0;
   padding: 0;
 }
 
-@media (max-width: 900px) {
+@media all and (max-width: 768px) {
   h1 {
     font-size: 44px;
     line-height: 1.5;
@@ -202,7 +198,6 @@ footer a:hover {
     text-align: center;
     padding: 0;
   }
-
   .project-description {
     padding: 0;
     text-align: center;

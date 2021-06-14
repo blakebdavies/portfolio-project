@@ -4,6 +4,14 @@
 }
 
 .homepage-content .subject-header {
-  font-size: 40px;
+  font-size: 35px;
   line-height: 1.5;
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+.project-description p {
+  font-size: 20px;
 }
