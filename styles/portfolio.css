@@ -180,21 +180,6 @@ footer a:hover {
   padding: 0;
 }
 
-.about-photo {
-  max-height: 400px;
-}
-.icons {
-  text-align: center;
-}
-
-.icons img {
-  max-height: 60px;
-  padding: 10px;
-}
-
-.icons p {
-  font-size: 10px;
-}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;

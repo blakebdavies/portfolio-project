@@ -13,6 +13,7 @@
       integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
     <link rel="stylesheet" href="styles/portfolio.css">
+    <link rel="stylesheet" href="styles/work.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
@@ -57,71 +58,83 @@
 </div>
 
 <body>
+    <div class="hero">
+      <h1 class="mb-5">
+      Recent Projects    
+      </h1>
+  </div>
     <div class="content-container container">
-         <div class="content">
-            <h1 class="mb-5">
-                Take a look at what I've been working on!
-            </h1>  
+      <h2>
+        I like to code things from scratch, and enjoy bringing ideas to life in the browser. Take a look at what I've been
+        working on!
+      </h2>
+      <div class="content">
     <div class="row">
-            <div class="col-md-6 mb-4">
-                <img src="images/yogurt.png" class="img-fluid rounded" alt="Yogurt App Preview">
-                <h3 class="text-center"> Yogurt Project</h3>
-                <p class="text-center text-muted"> Built with HTML and CSS</p>
-            </div>
-                <div class="col-md-6 mb-4">
-                    
+            <div class="project-preview col-sm-12 col-md-6 mb-5">
+                <img src="images/vanilla-weather-app.png" class="img-fluid rounded" alt="Vanilla Weather Preview">
+                <h3 class="text-center"> Vanilla Weather App</h3>
+                <p class="text-center text-muted"> Built with HTML, CSS, Javascript, and OpenWeatherMap API</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <a href="https://eloquent-khorana-84ad8b.netlify.app/" class="btn btn-branding btn-sm shadow-sm" target="_blank" title="View Project">Launch App</a>
+                <a href="https://github.com/blakebdavies/vanilla-weather-app" class="btn btn-branding-outline btn-sm" target="_blank" title="Vanilla Weather GitHub">View GitHub</a>
+             </div>
+              </div>
+                <div class="project-preview col-sm-12 col-md-6 mb-5">
                       <img src="images/react-weather-app.png" class="img-fluid rounded" alt="Weather App Preview">
-                      </a>
                     <h3 class="text-center"> Weather Project</h3>
                     <p class="text-center text-muted"> Built with HTML, CSS, and React</p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <a href="https://gracious-bohr-9bcc0b.netlify.app/" class="btn btn-branding btn-sm shadow-sm" target="_blank" title="View Project">Launch App</a>
+                    <a href="https://github.com/blakebdavies/react-weather-app" class="btn btn-branding-outline btn-sm" target="_blank" title="React Weather GitHub">View GitHub</a>
                 </div>
-                    <div class="col-md-6 mb-4">
-                        <img src="images/dictionary.png" class="img-fluid rounded" alt="Dictionary App Preview">
+                  </div>
+                    <div class="project-preview col-sm-12 col-md-6">
+                        <img src="images/react-dictionary-app.png" class="img-fluid rounded" alt="Dictionary App Preview">
                         <h3 class="text-center">Dictionary App</h3>
                         <p class="text-center text-muted"> Built with HTML, CSS, and React</p>
+                        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <a href="https://eloquent-babbage-8e1acc.netlify.app/" class="btn btn-branding btn-sm shadow-sm" target="_blank" title="View Project">Launch App</a>
+                        <a href="https://github.com/blakebdavies/dictionary-app" class="btn btn-branding-outline btn-sm" target="_blank" title="Dictionary GitHub">View GitHub</a>
+                        </div>
+                        </div>
                     </div>
-                    <div class="col-md-6 mb-4">
-                      <img src="images/translation.png" class="img-fluid rounded" alt="Translation App Preview">
-                      <h3 class="text-center"> Translation Project</h3>
-                      <p class="text-center text-muted"> Built with HTML, CSS, and React </p>
-                    </div>
-    </div>
-             </div>
-            <footer>
-              <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
-                <div>
-                  <h3>
-                    Work Enquiry
-                  </h3>
-                  <p class="text-muted"></p>
-                  Let's work together!
-                  </p>
-                </div>
-                <div>
-                  <a href="/contact.html" class="btn btn-branding mt-3" title="Contact Blake">Contact Me</a>
-                </div>
+               </div>
+  
+          <footer>
+            <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+              <div>
+                <h3>
+                  Work Enquiry
+                </h3>
+                <p class="text-muted"></p>
+                Let's work together!
+                </p>
               </div>
-              <div class="d-flex justify-content-center mb-5">
-                <a href="mailto:blakebdavies@gmail.com" class="email-link" title="Email Blake">
-                  blakebdavies@gmail.com
-                </a>
+              <div>
+                <a href="/contact.html" class="btn btn-branding mt-3" title="Contact Blake">Contact Me</a>
               </div>
-              <div class="social-links d-flex justify-content-center">
-                <a href="https://www.linkedin.com/in/blakebdavies" target="_blank" title="LinkedIn Profile">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-                <a href="https://www.instagram.com/_artloud" target="_blank" title="Instagram Profile">
-                  <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://github.com/blakebdavies" target="_blank" title="GitHub Profile">
-                  <i class="fab fa-github"></i>
-                </a>
-              </div>
-              <p class="website-coded text-center text-muted mt-5 mb-0 border-top">
-                👩‍💻 This website was coded by Blake Davies, and is <a href="https://github.com/blakebdavies/portfolio-project"
-                  target="_blank" title="Source Code">open-sourced</a> on Github
-              </p>
-            </footer>
+            </div>
+            <div class="d-flex justify-content-center mb-5">
+              <a href="mailto:blakebdavies@gmail.com" class="email-link" title="Email Blake">
+                blakebdavies@gmail.com
+              </a>
+            </div>
+            <div class="social-links d-flex justify-content-center">
+              <a href="https://www.linkedin.com/in/blakebdavies" target="_blank" title="LinkedIn Profile">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://www.instagram.com/_artloud" target="_blank" title="Instagram Profile">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://github.com/blakebdavies" target="_blank" title="GitHub Profile">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+            <p class="website-coded text-center text-muted mt-5 mb-0 border-top">
+              👩‍💻 This website was coded by Blake Davies, and is <a href="https://github.com/blakebdavies/portfolio-project"
+                target="_blank" title="Source Code">open-sourced</a> on Github
+            </p>
+          </footer>
             </div>
 </body>
 
