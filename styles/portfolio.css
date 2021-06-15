@@ -164,7 +164,7 @@ footer a:hover {
 
 .btn-branding:hover {
   color: white;
-  background-color: var(--font-color);
+  background-color: #6946ee;
 }
 
 .btn-branding-outline {
@@ -174,7 +174,7 @@ footer a:hover {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
-  transition: all 150ms ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 
 .btn-branding-outline:hover {
