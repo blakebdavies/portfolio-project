@@ -8,10 +8,6 @@
   line-height: 1.5;
 }
 
-.project-description {
-  padding: 120px 60px;
-}
-
-.project-description p {
+.card-text p {
   font-size: 20px;
 }
