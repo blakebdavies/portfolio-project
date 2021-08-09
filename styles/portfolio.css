@@ -6,27 +6,18 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: var(--default-font-family);
   color: var(--font-color);
 }
 
-.navbar-nav {
-  margin-left: auto;
-  padding-right: 40px;
-}
 
-.nav-link {
-  text-decoration: none;
-  font-weight: 200;
-  margin-left: 12px;
-  transition: all 150ms ease-in-out;
-}
-.active,
-.nav-link:hover {
-  font-weight: 400;
-  color: var(--branding-color) !important;
-}
 
 h1,
 h2,
@@ -103,6 +94,23 @@ footer a {
 footer a:hover {
   color: var(--branding-color);
   transition: all 100ms ease-in-out;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  padding-right: 40px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: 200;
+  margin-left: 12px;
+  transition: all 150ms ease-in-out;
+}
+.active,
+.nav-link:hover {
+  font-weight: 400;
+  color: var(--branding-color) !important;
 }
 
 .hero {
