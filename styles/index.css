@@ -96,6 +96,9 @@ footer a:hover {
   transition: all 100ms ease-in-out;
 }
 
+.navbar{
+  background-color: var(--secondary-color);
+}
 .navbar-nav {
   margin-left: auto;
   padding-right: 40px;
