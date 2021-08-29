@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Blake Davies is a front-end developer based in London, United Kingdom. Blake is a very skilled Javascript and React Engineer.">
+    <title> Blake Davies | Projects</title>
+    <link rel="shortcut icon" type="image/png" href="images/logo.png" />
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/86f696f4e2.js" crossorigin="anonymous"></script>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&family=Source+Sans+Pro&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html" title="Homepage">
+                <img src="images/logo.png" alt="logo" class="logo" />
+            </a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav-item"><a href="/index.html" class="nav__link" title="Homepage">Home</a></li>
+                <li class="nav-item"><a href="/index.html#work" class="nav__link" title="Blake's work">My Work</a></li>
+                <li class="nav-item"><a href="about" class="nav__link" title="About Blake">About Me</a></li>
+                <li class="nav-item"><a href="contact" class="nav__link" title="Contact Blake">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="project-intro">
+            <h1 class="section__title section__title--intro">
+                Case Study: <strong>React Weather App</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Built with HTML, CSS, and OpenWeather API</p>
+        </section>
+        <div class="portfolio-item-individual">
+            <img src="/images/vanilla-weather-app.png" class="project__img" alt="Vanilla Weather App" />
+            <p>Using <span class="highlight">Vanilla Javascript</span>, I built this weather app fully-functioning
+                weather app, gaining skills in
+                Bootstrap, API’s,
+                real-life development workflow, hosting, and advanced JavaScript. My end goal of this project was to
+                create
+                a fully
+                functional worldwide weather checker that allows users to search a city and see the weather in real-time
+                as well as the
+                upcoming 5-day forecast.</p>
+
+            <p>I divided this project in two phases. The first phase was creating the weather search by integrating the
+                API and returning the real-time, current weather of a chosen city, displaying the weather description,
+                humidity, and
+                wind speed. The main challenge of this phase was deconstructing the application into functions and
+                understanding the
+                possibilities of my chosen API, <span class="highlight">OpenWeatherMap.</span></p>
+
+            <p>The second phase was dedicated to creating the 5-day forecast by building the layout, styling the
+                feature, and
+                using a more complex API integration to include the data of the 5-day forecast. The first
+                challenge of this
+                section was deciding where to call the One Call API because this could only be done once the
+                coordinates of
+                the city were established, so I had to find the right place to get the forecast results, only after the
+                first API call.
+                The second challenge was building the string to inject within the html for each day of the forecast
+                prediction. In order
+                to do this, I had to concatenate a larger string and then add each day, one at a time for the forecast.
+            </p>
+
+            <p>I am happy with the appearance and functionaly of the application, however I would improve it by adding
+                in a temperature
+                conversion, so that the user can choose whether they'd like to see the weather in ºC or ºF.
+            </p>
+            <div class="project-buttons">
+                <a href="https://eloquent-khorana-84ad8b.netlify.app/" target="_blank" class="btn"
+                    title="Launch App">Launch App</a>
+                <a href="https://github.com/blakebdavies/vanilla-weather-app" target="_blank" class="btn-outline"
+                    title="View Github">View GitHub</a>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+
+    <footer class="footer" id="contact">
+        <a href="mailto:blakebdavies@gmail.com" class="footer__link" title="Email Blake">blakebdavies@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.github.com/blakebdavies" target="_blank"
+                    title="See Blake's GitHub"><i class="fab fa-github"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/blakebdavies" target="_blank"
+                    title="Connect with Blake"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

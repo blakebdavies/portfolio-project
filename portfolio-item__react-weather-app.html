@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blake Davies is a front-end engineer based in London">
+    <meta name="description"
+        content="Blake Davies is a front-end developer based in London, United Kingdom. Blake is a very skilled Javascript and React Engineer.">
+    <title> Blake Davies | Projects</title>
+    <link rel="shortcut icon" type="image/png" href="images/logo.png" />
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/86f696f4e2.js" crossorigin="anonymous"></script>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&family=Source+Sans+Pro&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html" title="Homepage">
+                <img src="images/logo.png" alt="logo" class="logo" />
+            </a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav-item"><a href="/index.html" class="nav__link" title="Homepage">Home</a></li>
+                <li class="nav-item"><a href="/work" class="nav__link" title="Blake's work">My Work</a></li>
+                <li class="nav-item"><a href="about" class="nav__link" title="About Blake">About Me</a></li>
+                <li class="nav-item"><a href="contact" class="nav__link" title="Contact Blake">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="project-intro">
+            <h1 class="section__title section__title--intro">
+                Case Study: <strong>React Weather App</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Built with HTML, CSS, React, and OpenWeatherMap API
+            </p>
+        </section>
+        <div class="portfolio-item-individual">
+            <img src="/images/react-weather-app.png" class="project__img" alt="React Weather App" height="400"
+                width="600" />
+            <p>This is a <span class="highlight">React</span> project focused on creating a simple, user-friendly design
+                with real-time weather
+                search functionality. This was my first React project and I learned so much by building each component.
+                My
+                end goal of this project was to
+                create a fully functional worldwide weather checker that allows users to search a city and see the
+                weather
+                in real-time as
+                well as the 5-day forecast. I also wanted to build on my skillset by creating a temperature conversion
+                that will change
+                the forecasted temperature to either ºC or ºF in order to be more accessible for international users.
+            </p>
+            <p>
+                I divided this project in two phases. The first phase was creating the weather search by integrating the
+                <span class="highlight">OpenWeatherMap
+                    API</span> and returning the real-time, current weather of a chosen city, displaying both imperial
+                and metric
+                temperatures as
+                well as the weather description, humidity, and wind speed.The main challenge of this phase was deciding
+                when to create
+                different components as to not over complicate their functionality.
+            </p>
+
+            <p> The second phase was dedicated to creating the daily forecast by building the layout, styling the
+                feature, and
+                integrating the API with the interface to display the data on the app, making sure it looks good for
+                different
+                scenarios. In this phase, I learned to loop through the numbers array using the JavaScript <strong>map()
+                    function</strong> to take care
+                of rendering the daily forecast for the consecutive dates in order to avoid repetitive code. I also
+                learned the
+                importance of ensuring that a function must return something at all times, even if it is null. The main
+                challenge of
+                building the forecast feature was to ensure that the weather data displayed each day would update when
+                the weather data
+                of the parent component changed due to coordinates of a new city search. To accomplish this, I learned
+                to incorporate a
+                <strong>{ Use Effect }</strong> which allows you to run code after the component is changed and loaded.
+            </p>
+
+            <p> I also decided to build a feature that would display the current day and time of the city that you
+                search. This was
+                important to me because I find it helpful feature for those traveling to new destinations or for those
+                with
+                friends/family in other parts of the world.</p>
+
+            <p>I am very pleased with the end result of the application, however I would improve it further by choosing
+                a
+                more
+                sophisticated API that would display the weather of every city and country. I found the OpenWeatherMap
+                API
+                easy to use,
+                but it was limited in its results without inputting exact coordinates. For example, if searching for
+                "Rome",
+                the API
+                does not take into account multiple cities in the world named "Rome" and returns "Rome, USA" rather than
+                "Rome, Italy" -
+                which is why I decided to display the country name as well as the city name in the application.
+            </p>
+            <div class="project-buttons">
+                <a href="https://gracious-bohr-9bcc0b.netlify.app/" target="_blank" class="btn"
+                    title="Launch App">Launch App</a>
+                <a href="https://github.com/blakebdavies/react-weather-app" target="_blank" class="btn-outline"
+                    title="View GitHub">View GitHub</a>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+
+    <footer class="footer" id="contact">
+        <a href="mailto:blakebdavies@gmail.com" class="footer__link" title="Email Blake">blakebdavies@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.github.com/blakebdavies" target="_blank"
+                    title="See Blake's GitHub"><i class="fab fa-github"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/blakebdavies" target="_blank"
+                    title="Connect with Blake"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
