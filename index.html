@@ -1,160 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Blake Davies is a front-end engineer based in London">
     <title> Blake Davies | Front-end Developer</title>
     <link rel="shortcut icon" type="image/jpg" href="images/logo.png" />
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    
-        <link rel="stylesheet" href="styles/portfolio.css">
-
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
-            rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
-
-        <script src="https://kit.fontawesome.com/86f696f4e2.js" crossorigin="anonymous"></script>
-
-        
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-            crossorigin="anonymous"></script>
-        <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/86f696f4e2.js" crossorigin="anonymous"></script>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!--Typer Feature-->
+    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
 </head>
-<body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/">
-                    <img src="images/logo.png" class="logo d-block" alt="Blake's logo" />
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
-                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarToggler">
-                    <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/" title="Homepage">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/about.html"title="About Blake">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/work.html" title="Blake's Work">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/contact.html" title="Contact Blake">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
-    <div class="hero"> 
-<p class="hello pb-2" style="font-size:larger"> Hello, I am </p>
-<h1>
-    Blake Davies
-</h1>
-<h2 class="mb-5">
-<span class="typer" id="main" data-words="Front-end Developer, Based in London, Nice to meet you!" data-delay="100" data-deletedelay="1000" data-colors="#272142" style="color: rgb(39, 38, 43);"></span>
-<span class="cursor" data-owner="main" style="transition: all 0.1 ease 0s; opacity: 0;">_</span>
-</h2>
-<div> 
-<a href="/contact.html" class="btn btn-branding shadow" title="Contact Blake">Contact me</a>
-</div>
-</div>
-<p class="text-center m-5 text-muted">
-    Here are a few of my featured projects:
-</p>
-<div class="homepage-content container">
-<section class="featured-projects mb-5">
-<div class="row row-cols-1 row-cols-md-2 g-4 text-center">
-    <div class="col-md-6">
-        <div class="card border-light">
-            <img src="/images/vanilla-weather-app.png" class="project-image card-img-top" alt="Vanilla Weather App">
-            <div class="card-body">
-                <h3 class="subject-header card-title">Vanilla Weather App</h3>
-                <p class="card-text text-muted">Built with HTML, CSS, React, and Dictionary API</p>
-            </div>
-        </div>
-        <a href="/work.html#vanilla-weather" class="btn btn-branding-outline" title="Vanilla Weather App">Learn More</a>
-    </div>
-    <div class="col-md-6">
-        <div class="card border-light">
-            <img src="/images/react-weather-app.png" class="project-image card-img-top" alt="React Weather App">
-            <div class="card-body">
-                <h3 class="subject-header card-title">React Weather App</h3>
-                <p class="card-text text-muted">Built with HTML, CSS, React, and OpenWeatherMap API</p>
-            </div>
-        </div>
-        <a href="/work.html#react-weather" class="btn btn-branding-outline" title="React Weather Preview">Learn More</a>
-    </div>
-    <div class="col-md-6">
-        <div class="card border-light">
-            <img src="/images/react-dictionary-app.png" class="project-image card-img-top" alt="React Dictionary App">
-            <div class="card-body">
-                <h3 class="subject-header card-title">React Dictionary App</h3>
-                <p class="card-text text-muted">Built with HTML, CSS, React, and Dictionary API</p>
-            </div>
-        </div>
-        <a href="/work.html#react-dictionary" class="btn btn-branding-outline"title="React Dictionary Preivew" >Learn More</a>
-    </div>
-    <div class="col-md-6">
-        <div class="card border-light">
-            <img src="/images/new-projects.png" class="project-image card-img-top" alt="New Projects Coming Soon">
-            <div class="card-body">
-                <h3 class="subject-header card-title">New Projects</h3>
-                <p class="card-text text-muted">Watch this space for a few more creations!</p>
-            </div>
-        </div>
-        <a href="/work.html" class="btn btn-branding-outline" title="New Projects Coming Soon">Learn More</a>
-    </div>
-</div>
-</section>
 
-    <footer>
-        <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"> 
-            <div>
-            <h3>
-                Work Enquiry
-            </h3>
-            <p class="text-muted"></p>
-                Let's work together!
-            </p>
-            </div>
-            <div>
-            <a href="/contact.html" class="contact-btn btn btn-branding mt-3 shadow" title="Contact Blake">Contact Me</a>
-            </div>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html" title="Homepage">
+                <img src="images/logo.png" alt="logo" class="logo" />
+            </a>
         </div>
-        <div class="d-flex justify-content-center mb-5">
-        <a 
-        href="mailto:blakebdavies@gmail.com" 
-        class="email-link"
-        title="Email Blake">
-        blakebdavies@gmail.com
-    </a>
-    </div>
-    <div class="social-links d-flex justify-content-center">
-        <a href="https://www.linkedin.com/in/blakebdavies" target="_blank" title="LinkedIn Profile">
-            <i class="fab fa-linkedin-in"></i>
-        </a>
-        <a href="https://www.instagram.com/_artloud" target="_blank" title="Instagram Profile">
-            <i class="fab fa-instagram"></i>
-        </a>
-        <a href="https://github.com/blakebdavies" target="_blank" title="GitHub Profile">
-            <i class="fab fa-github"></i>
-        </a>
-        </div>
-        <p class="website-coded text-center text-muted mt-5 mb-0 border-top">
-            👩‍💻 This website was coded by Blake Davies, and is <a href="https://github.com/blakebdavies/portfolio-project"
-                target="_blank" title="Source Code">open-sourced</a> on Github
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav-item"><a href="/index.html" class="nav__link" title="Homepage">Home</a></li>
+                <li class="nav-item"><a href="#work" class="nav__link" title="Blake's work">My Work</a></li>
+                <li class="nav-item"><a href="#about" class="nav__link" title="About Blake">About Me</a></li>
+                <li class="nav-item"><a href="#contact" class="nav__link" title="Contact Blake">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Introduction-->
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Blake Davies</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">
+            <span class="typer" id="main" data-words="Front-end Developer, Based in London, Nice to meet you!"
+                data-delay="100" data-deletedelay="1000" data-colors="#272142" style="color: #393E46;"></span>
+            <span class="cursor" data-owner="main" style="transition: all 0.1 ease 0s; opacity: 0;">_</span>
         </p>
+        <img src="images/blake-01.jpg" alt="a picture of Blake Davies smiling with coffee" class="intro__img" />
+    </section>
+
+    <!--My Services-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I Do</h2>
+        <div class="services">
+            <div class="service">
+                <h3><i class="fas fa-pencil-ruler"></i></h3>
+                <p>
+                    UI/UX Design
+                </p>
+            </div>
+            <!-- / service-->
+            <div class="service">
+                <h3><i class="fas fa-code"></i></h3>
+                <p>
+                    Web Development
+                </p>
+            </div>
+            <!-- / service-->
+            <div class="service">
+                <h3><i class="fas fa-signal"></i></h3>
+                <p>
+                    SEO & Marketing
+                </p>
+            </div>
+            <!-- / service-->
+            <div class="service">
+                <h3><i class="fas fa-chart-bar"></i></h3>
+                <p>
+                    Data Analytics
+                </p>
+            </div>
+            <!-- / service-->
+        </div>
+        <!-- /services -->
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About Me-->
+
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Seattle-native based in London, England</p>
+        <div class="about-me__body">
+            <p>Throughout my career, I have travelled all over the world, helping brands develop their digital
+                presence from content creation and search engine optimiztion to web design and development. I am a
+                strong
+                believer in life-long learning and love the countless opportunities working in tech offers in
+                nurturing curiosity!
+            </p>
+            <p>
+                Over the two years, I have developed expertise in <span class="highlight">Javascript ES6</span> and
+                <span class="highlight">React</span> and enjoy turning complex problems into
+                simple, beautiful and intuitive designs. Currently, I'm focused on building accessible, human-centered
+                products
+                that elevate user experience and encourage digital engagement.
+            </p>
+            <p>When I'm not pushing pixels, you'll find me exploring art galleries, watching films or hanging out with
+                friends.</p>
+            <div class="about-buttons">
+                <a href="https://www.linkedin.com/in/blakebdavies" class="btn" title="Contact Blake">Let's Connect</a>
+                <a href="/documents/BlakeDavies_CV.pdf" class="btn-outline" target="_blank" title="Blake's CV">View
+                    Resume</a>
+            </div>
+        </div>
+
+        <img src="images/blake_02.jpg" alt="blake talking in front of a painting" class="about-me__img" />
+    </section>
+
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">Check out a few of my recent projects!</p>
+        <div class="portfolio">
+            <!--Portfolio Item 01-->
+            <a href="/portfolio-item__brushandbubbles.html" class="portfolio__item" title="Blake's Project Preview">
+                <img src="images/brushandbubbles.png" alt="" class="portfolio__img" />
+            </a>
+            <!--Portfolio Item 02-->
+            <a href="/portfolio-item__situ-live.html" class="portfolio__item">
+                <img src="images/situ-live.png" alt="" class="portfolio__img" />
+            </a>
+            <!--Portfolio Item 03-->
+            <a href="/portfolio-item__react-ecommerce-project.html" class="portfolio__item"
+                title="Blake's Project Preview">
+                <img src="images/react-ecomm-project.png" alt="" class="portfolio__img" />
+            </a>
+            <!--Portfolio Item 04-->
+            <a href="/portfolio-item__react-dictionary-app.html" class="portfolio__item"
+                title="Blake's Project Preview">
+                <img src="images/react-dictionary-app.png" alt="" class="portfolio__img" />
+            </a>
+            <!--Portfolio Item 05-->
+            <a href="/portfolio-item__react-weather-app.html" class="portfolio__item" title="Blake's Project Preview">
+                <img src="images/react-weather-app.png" alt="" class="portfolio__img" />
+            </a>
+            <!--Portfolio Item 06-->
+            <a href="/portfolio-item__vanilla-weather-app.html" class="portfolio__item" title="Blake's Project Preview">
+                <img src="images/vanilla-weather-app.png" alt="" class="portfolio__img" />
+            </a>
+
+    </section>
+
+    <!--footer-->
+
+    <footer class="footer" id="contact">
+        <a href="mailto:blakebdavies@gmail.com" class="footer__link" title="Email Blake">blakebdavies@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.github.com/blakebdavies" target="_blank"
+                    title="See Blake's GitHub"><i class="fab fa-github"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/blakebdavies" target="_blank"
+                    title="Connect with Blake"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+        </ul>
     </footer>
-</div>
+
+    <script src="js/index.js"></script>
 </body>
+
 </html>

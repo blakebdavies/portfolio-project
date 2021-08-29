@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blake Davies is a front-end engineer based in London">
+    <title> Blake Davies | Front-end Developer</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/logo.png" />
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/86f696f4e2.js" crossorigin="anonymous"></script>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&family=Source+Sans+Pro&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html" title="Homepage">
+                <img src="images/logo.png" alt="logo" class="logo" />
+            </a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav-item"><a href="/index.html" class="nav__link" title="Homepage">Home</a></li>
+                <li class="nav-item"><a href="/work" class="nav__link" title="Blake's work">My Work</a></li>
+                <li class="nav-item"><a href="about" class="nav__link" title="About Blake">About Me</a></li>
+                <li class="nav-item"><a href="contact" class="nav__link" title="Contact Blake">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="project-intro">
+            <h1 class="section__title section__title--intro">
+                Case Study: <strong>React Dictionary App</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Built with HTML, CSS, React, and Dictionary API</p>
+        </section>
+        <div class="portfolio-item-individual">
+            <img src="/images/react-dictionary-app.png" alt="React Dictionary App Preview" class="project__img"
+                width="600" height="400" />
+            <p>This is a <span class="highlight">React</span> project focused on creating a simple, user-friendly design
+                with seamless word-search
+                functionality. I learned so many new things by creating this coding project. My end goal of this project
+                was to create a
+                fully
+                functional dictionary app that included basic features like the definition, part of speech, synonyms,
+                phonetic spelling
+                and (if possible) an audio button and image section.</p>
+
+            <p>While building this application, I learned how to search for the APIs that were right for getting my
+                desired end result,
+                create specific components, use <strong>React Loops</strong>, and <strong>Use States</strong>.</p>
+
+            <p>The main challenges of the project were creating more components, so the application could parse through
+                the different
+                aspects of the complex API and stay true to the <span class="highlight">Single Responsibility
+                    Principle</span>. It was also important
+                to me to display
+                the audio player of the phonetics in the most user-friendly and accessible way, so I wanted this
+                element to play whilst
+                the user was still on the application, rather than this feature opening up into a different tab, so
+                installing
+                <strong>react-audio-player</strong> helped me achieve this goal.
+            </p>
+            <div class="project-buttons">
+                <a href="https://eloquent-babbage-8e1acc.netlify.app/" target="_blank" class="btn"
+                    title="Launch App">Launch App</a>
+                <a href="https://github.com/blakebdavies/dictionary-app" target="_blank" class="btn-outline"
+                    title="View GitHub">View GitHub</a>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+
+    <footer class="footer">
+        <a href="mailto:blakebdavies@gmail.com" class="footer__link">blakebdavies@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href=""><i class="fab fa-github"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href=""><i class="fab fa-linkedin-in"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

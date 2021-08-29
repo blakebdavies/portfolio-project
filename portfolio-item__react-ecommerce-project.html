@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blake Davies is a front-end engineer based in London">
+    <title> Blake Davies | Front-end Developer</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/logo.png" />
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/86f696f4e2.js" crossorigin="anonymous"></script>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&family=Source+Sans+Pro&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html" title="Homepage">
+                <img src="images/logo.png" alt="logo" class="logo" />
+            </a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav-item"><a href="/index.html" class="nav__link" title="Homepage">Home</a></li>
+                <li class="nav-item"><a href="/work" class="nav__link" title="Blake's work">My Work</a></li>
+                <li class="nav-item"><a href="about" class="nav__link" title="About Blake">About Me</a></li>
+                <li class="nav-item"><a href="contact" class="nav__link" title="Contact Blake">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="project-intro">
+            <h1 class="section__title section__title--intro">
+                Case Study: <strong>Brightspot Mobile</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">React E-Commerce Website </p>
+        </section>
+        <div class="portfolio-item-individual">
+            <img src="/images/react-ecomm-project.png" alt="React E-commerce Website" class="project__img" height="400"
+                width="600" />
+            <p>Fusing my knowledge of React and experience in E-commerce, I am currently working on an e-commerce
+                website
+                that integrates into the React Paypal Api and allows users to 'purchase' products listed on the page.
+                Feel
+                free to view my progress! </p>
+            <div class="project-buttons">
+                <a href="https://silly-feynman-e9a3ae.netlify.app/" target="_blank" class="btn"
+                    title="Launch Website">Launch Website</a>
+                <a href="https://github.com/blakebdavies/react-ecomm-project" target="_blank" class="btn-outline"
+                    title="View GitHub">View GitHub</a>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+
+    <footer class="footer">
+        <a href="mailto:blakebdavies@gmail.com" class="footer__link">blakebdavies@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href=""><i class="fab fa-github"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href=""><i class="fab fa-linkedin-in"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
