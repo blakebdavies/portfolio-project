@@ -1,3 +1,3 @@
                                                                                               
 <h2>Portfolio Project</h2>
- <p> This is a development portfolio focused on showcasing my latest coding projects. <a target="_blank" rel="noopener noreferrer" href="https://www.blakebdavies.com/">Click here for live demo</a> </p>
+ <p> This is a previous development portfolio focused on showcasing my intitial coding projects. <a target="_blank" rel="noopener noreferrer" href="https://zen-pasteur-ec83ae.netlify.app//">Click here for live demo</a> </p>
